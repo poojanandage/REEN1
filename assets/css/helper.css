@@ -1,0 +1,106 @@
+.container{
+	width: 1165px;
+	margin:0 auto;
+}
+a:link, a:visited, a:hover, a:active, a:focus{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.row, .row:after, .row:before{
+	clear:  both;
+	width: 100%;
+	display: table;
+}
+div[class^="col"]{
+	float: left;
+	/* padding:0 15px; */
+}
+.col-off-set1{
+	margin-left: calc(100% * 1/12);
+}
+.col-off-set2{
+	margin-left: calc(100% * 2/12);
+}
+.col-off-set5{
+	margin-left: calc(100% * 5/12);
+}
+.col2{
+	width: calc(100% * 2/12);
+}
+.col3{
+	width: calc(100% * 3/12);
+}
+.col4{
+	width: calc(100% * 4/12);
+}
+.col5{
+	width: calc(100% * 5/12);
+}
+.col6{
+	width:calc(100% * 6/12);
+}
+.col7{
+	width:calc(100% * 7/12);
+}
+.col8{
+	width: calc(100% * 8/12);
+}
+.col9{
+	width: calc(100% * 9/12);
+}
+.col110{
+	width: calc(100% * 10/12);
+}
+.col11{
+	width: calc(100% * 11/12);
+}
+.col12{
+	width: calc(100% * 12/12);
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.mb-35{
+	margin-bottom:35px;
+}
+.mb-40{
+	margin-bottom:40px;
+}
+.mb-45{
+	margin-bottom:45px !important;
+}
+.mb-60{
+	margin-bottom:60px;
+}
+.mb-75{
+	margin-bottom:75px;
+}
+.mb-80{
+	margin-bottom:80px;
+}
+.mb-130{
+	margin-bottom:130px;
+}
+.mb-75{
+	margin-bottom:75px;
+}
+.ml-10{
+	margin-left:10px;
+}
+.mr-10{
+	margin-right:10px;
+}
+.pl-15{
+	padding-left:15px;
+}
+.pr-15{
+	padding-right:15px;
+}
